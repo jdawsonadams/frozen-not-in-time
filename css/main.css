@@ -81,7 +81,7 @@ p {
   left: 60px;
   z-index: 4;
   transform: translateY(-100rem);
-  animation: cone 1s 1.3s linear forwards;
+  animation: cone 1s 1.2s linear forwards;
 }
 
 .cherry {
@@ -89,7 +89,7 @@ p {
   left: 60px;
   z-index: 5;
   transform: translateY(-100rem);
-  animation: cone 1s 2s linear forwards;
+  animation: cone 1s 1.4s linear forwards;
 }
 
 .ic-cone {
