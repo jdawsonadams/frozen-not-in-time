@@ -36,82 +36,82 @@ html {
 
 }
 
-  .btn-ghost {
-    border-color: #990073;
-    color: #c09;
-  }
+.btn-ghost {
+  border-color: #990073;
+  color: #c09;
+}
 
-  .btn-ghost:hover {
-    background-color: rgba(204, 0, 153, .15);
-    border-color: #990073;
-    color: #c09;
-  }
+.btn-ghost:hover {
+  background-color: rgba(204, 0, 153, .15);
+  border-color: #990073;
+  color: #c09;
+}
 
-  h1 {
-    color: #990073;
-    transform: rotate(-8deg);
-    transform-origin: left center;
-  }
+h1 {
+  color: #990073;
+  transform: rotate(-8deg);
+  transform-origin: left center;
+}
 
-  p {
-    max-width: 19em;
-    color: #c09;
-    transform: rotate(-5deg);
-    transform-origin: left center;
-  }
+p {
+  max-width: 19em;
+  color: #c09;
+  transform: rotate(-5deg);
+  transform-origin: left center;
+}
 
-  .mint {
-    bottom: 115px;
-    left: 60px;
-    z-index: 1;
+.mint {
+  bottom: 115px;
+  left: 60px;
+  z-index: 1;
+  transform: translateY(-100rem);
+  animation: cone 1s .5s linear forwards;
+}
+
+.choco {
+  bottom: 195px;
+  left: 65px;
+  z-index: 3;
+  transform: translateY(-100rem);
+  animation: cone 1s 1s linear forwards;
+}
+
+.vanilla {
+  bottom: 280px;
+  left: 60px;
+  z-index: 4;
+  transform: translateY(-100rem);
+  animation: cone 1s 1.5s linear forwards;
+}
+
+.cherry {
+  bottom: 360px;
+  left: 60px;
+  z-index: 5;
+  transform: translateY(-100rem);
+  animation: cone 1s 2s linear forwards;
+}
+
+.ic-cone {
+  height: 175px;
+}
+
+.cone {
+  bottom: 10px;
+  left: 60px;
+  z-index: 2;
+  transform: translateY(-100rem);
+  animation: cone 1s linear forwards;
+}
+
+@keyframes cone {
+
+  0% {
     transform: translateY(-100rem);
-    animation: cone 1s .5s linear forwards;
   }
 
-  .choco {
-    bottom: 195px;
-    left: 65px;
-    z-index: 3;
-    transform: translateY(-100rem);
-    animation: cone 1s 1s linear forwards;
+  100% {
+    transform: translateY(0);
   }
 
-  .vanilla {
-    bottom: 280px;
-    left: 60px;
-    z-index: 4;
-    transform: translateY(-100rem);
-    animation: cone 1s 1.5s linear forwards;
-  }
-
-  .cherry {
-    bottom: 360px;
-    left: 60px;
-    z-index: 5;
-    transform: translateY(-100rem);
-    animation: cone 1s 2s linear forwards;
-  }
-
-  .ic-cone {
-    height: 175px;
-  }
-
-  .cone {
-    bottom: 10px;
-    left: 60px;
-    z-index: 2;
-    transform: translateY(-100rem);
-    animation: cone 1s linear forwards;
-  }
-
-  @keyframes cone {
-
-    0% {
-      transform: translateY(-100rem);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-
-  }
+}
