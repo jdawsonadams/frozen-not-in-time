@@ -16,9 +16,9 @@ html {
 .banner-content {
   text-shadow: 1px 1px rgba(0, 0, 0, .25);
   left: 2.5rem;
-  top: 4.5rem;
+  top: 5rem;
   -webkit-animation: banner-content 1s 5s linear;
-  animation: banner-content 1s 1.5s linear forwards;
+  animation: banner-content 1s 1s linear forwards;
   opacity: 0;
 }
 
@@ -89,7 +89,7 @@ p {
   left: 60px;
   z-index: 5;
   transform: translateY(-100rem);
-  animation: cone 1s 1.4s linear forwards;
+  animation: cone 1s 1.3s linear forwards;
 }
 
 .ic-cone {
