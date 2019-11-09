@@ -46,3 +46,16 @@ html {
     border-color: #990073;
     color: #c09;
   }
+
+  h1 {
+    color: #990073;
+    transform: rotate(-8deg);
+    transform-origin: left center;
+  }
+
+  p {
+    max-width: 19em;
+    color: #c09;
+    transform: rotate(-5deg);
+    transform-origin: left center;
+  }
