@@ -59,3 +59,35 @@ html {
     transform: rotate(-5deg);
     transform-origin: left center;
   }
+
+  .mint {
+    bottom: 115px;
+    left: 60px;
+    z-index: 1;
+    transform: translateY(-100rem);
+    animation: cone 1s .5s linear forwards;
+  }
+
+  .choco {
+    bottom: 195px;
+    left: 65px;
+    z-index: 3;
+    transform: translateY(-100rem);
+    animation: cone 1s 1s linear forwards;
+  }
+
+  .vanilla {
+    bottom: 280px;
+    left: 60px;
+    z-index: 4;
+    transform: translateY(-100rem);
+    animation: cone 1s 1.5s linear forwards;
+  }
+
+  .cherry {
+    bottom: 360px;
+    left: 60px;
+    z-index: 5;
+    transform: translateY(-100rem);
+    animation: cone 1s 2s linear forwards;
+  }
