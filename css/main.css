@@ -1,3 +1,23 @@
 html {
-  font-family: "Fredoka One", serif;
+  font-family: "Fredoka One", sans-serif;
+}
+
+.banner {
+  min-height: 500px;
+  background-image: repeating-linear-gradient(-32.5deg, #c9fcff, #c9fcff 1%, #d4fdff 2%, #d4fdff 3%);
+  border-top: 7.5px solid #b3fbff;
+  border-bottom: 7.5px solid #b3fbff;
+}
+
+.cone-wrap {
+  min-height: 490px;
+}
+
+.banner-content {
+  text-shadow: 1px 1px rgba(0, 0, 0, .25);
+  left: 2.5rem;
+  top: 4.5rem;
+  -webkit-animation: banner-content 1s 5s linear;
+  animation: banner-content 1s 1.5s linear forwards;
+  opacity: 0;
 }
