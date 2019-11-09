@@ -91,3 +91,27 @@ html {
     transform: translateY(-100rem);
     animation: cone 1s 2s linear forwards;
   }
+
+  .ic-cone {
+    height: 175px;
+  }
+
+  .cone {
+    bottom: 10px;
+    left: 60px;
+    z-index: 2;
+    transform: translateY(-100rem);
+    animation: cone 1s linear forwards;
+  }
+
+  @keyframes cone {
+
+    0% {
+      transform: translateY(-100rem);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+
+  }
