@@ -33,3 +33,16 @@ html {
     opacity: 1;
     filter: blur(0);
   }
+
+}
+
+  .btn-ghost {
+    border-color: #990073;
+    color: #c09;
+  }
+
+  .btn-ghost:hover {
+    background-color: rgba(204, 0, 153, .15);
+    border-color: #990073;
+    color: #c09;
+  }
