@@ -76,7 +76,7 @@ p {
   animation: cone 1s 1s linear forwards;
 }
 
-.vanilla-fudge {
+.fudge {
   bottom: 280px;
   left: 60px;
   z-index: 4;
