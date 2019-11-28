@@ -81,7 +81,7 @@ p {
   left: 60px;
   z-index: 4;
   transform: translateY(-100rem);
-  animation: cone 1s 1.2s linear forwards;
+  animation: fudge-drop 500ms forwards linear 1500ms;
 }
 
 .cherry {
@@ -112,6 +112,19 @@ p {
 
   100% {
     transform: translateY(0);
+  }
+
+}
+
+@keyframes fudge-drop {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 215px;
+    opacity: 1;
   }
 
 }
